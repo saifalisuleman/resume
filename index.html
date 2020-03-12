@@ -92,10 +92,14 @@
 
     <footer>
         <p class="Print"><small>Printed from https://saifalisuleman.github.io/resume</small></p>
+        <p>Last modified <i><span id="demo"></span></i></p>
         <p class="dontPrint onlyDesktop"><i class="fa fa-print"></i> &nbsp; <a href="javascript:window.print()">Print Resume</a></p>
         <p class="dontPrint contMob icon"><a href="javascript:window.print()"><i class="fa fa-print"></i></a></p>
         <p class="dontPrint"><small>&copy; 2020 by <a>Saifali Suleman</a><br>Proudly created with HTML and CSS</small></p>
     </footer>
+    <script>
+    document.getElementById("demo").innerHTML = document.lastModified;
+    </script>
 </main>
 </body>
 </html>
