@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="style.css">
-    <script>document.getElementById("lastModify").innerHTML = document.lastModified.split(" ")[0];</script>
 </head>
 
 <body>
@@ -95,8 +94,12 @@
         <p class="Print"><small>Printed from https://saifalisuleman.github.io/resume</small></p>
         <p class="dontPrint onlyDesktop"><i class="fa fa-print"></i> &nbsp; <a href="javascript:window.print()">Print Resume</a></p>
         <p class="dontPrint contMob icon"><a href="javascript:window.print()"><i class="fa fa-print"></i></a></p>
-        <p><small>Last modified <i><span id="lastModify"></span></i></small></p>
-        <p class="dontPrint"><small>&copy; 2020 by <a>Saifali Suleman</a><br>Proudly created with HTML and CSS</small></p>
+        <p class="dontPrint"><small>
+            &copy; 2020 by <a>Saifali Suleman</a><br>
+            Last modified <i><span id="lastModify"></span></i><br>
+            Proudly created with HTML and CSS
+        </small></p>
+        <script>document.getElementById("lastModify").innerHTML = document.lastModified.split(" ")[0];</script>
     </footer>
 </main>
 </body>
